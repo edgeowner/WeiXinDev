@@ -1,0 +1,15 @@
+rootProject.name = 'WeiXinDev'
+
+include("weixin-java-web")
+include("weixin-java-common")
+include("weixin-java-open")
+include("weixin-java-core")
+include("weixin-java-utils")
+
+
+project(':weixin-java-common').projectDir = "$rootDir/weixin-java-common" as File
+project(':weixin-java-web').projectDir = "$rootDir/weixin-java-web" as File
+project(':weixin-java-open').projectDir = "$rootDir/weixin-java-open" as File
+project(':weixin-java-core').projectDir = "$rootDir/weixin-java-core" as File
+project(':weixin-java-utils').projectDir = "$rootDir/weixin-java-utils" as File
+

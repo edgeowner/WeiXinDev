@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WeiXinDev.iml" filepath="$PROJECT_DIR$/.idea/modules/WeiXinDev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WeiXinDev_main.iml" filepath="$PROJECT_DIR$/.idea/modules/WeiXinDev_main.iml" group="WeiXinDev" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/WeiXinDev_test.iml" filepath="$PROJECT_DIR$/.idea/modules/WeiXinDev_test.iml" group="WeiXinDev" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weixin-java-common/weixin-java-common.iml" filepath="$PROJECT_DIR$/.idea/modules/weixin-java-common/weixin-java-common.iml" group="weixin-java-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weixin-java-common/weixin-java-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/weixin-java-common/weixin-java-common_main.iml" group="weixin-java-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weixin-java-common/weixin-java-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/weixin-java-common/weixin-java-common_test.iml" group="weixin-java-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weixin-java-core/weixin-java-core.iml" filepath="$PROJECT_DIR$/.idea/modules/weixin-java-core/weixin-java-core.iml" group="weixin-java-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weixin-java-core/weixin-java-core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/weixin-java-core/weixin-java-core_main.iml" group="weixin-java-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weixin-java-core/weixin-java-core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/weixin-java-core/weixin-java-core_test.iml" group="weixin-java-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weixin-java-open/weixin-java-open.iml" filepath="$PROJECT_DIR$/.idea/modules/weixin-java-open/weixin-java-open.iml" group="weixin-java-open" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weixin-java-open/weixin-java-open_main.iml" filepath="$PROJECT_DIR$/.idea/modules/weixin-java-open/weixin-java-open_main.iml" group="weixin-java-open" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weixin-java-open/weixin-java-open_test.iml" filepath="$PROJECT_DIR$/.idea/modules/weixin-java-open/weixin-java-open_test.iml" group="weixin-java-open" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weixin-java-utils/weixin-java-utils.iml" filepath="$PROJECT_DIR$/.idea/modules/weixin-java-utils/weixin-java-utils.iml" group="weixin-java-utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weixin-java-utils/weixin-java-utils_main.iml" filepath="$PROJECT_DIR$/.idea/modules/weixin-java-utils/weixin-java-utils_main.iml" group="weixin-java-utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weixin-java-utils/weixin-java-utils_test.iml" filepath="$PROJECT_DIR$/.idea/modules/weixin-java-utils/weixin-java-utils_test.iml" group="weixin-java-utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weixin-java-web/weixin-java-web.iml" filepath="$PROJECT_DIR$/.idea/modules/weixin-java-web/weixin-java-web.iml" group="weixin-java-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weixin-java-web/weixin-java-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/weixin-java-web/weixin-java-web_main.iml" group="weixin-java-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/weixin-java-web/weixin-java-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/weixin-java-web/weixin-java-web_test.iml" group="weixin-java-web" />
+    </modules>
+  </component>
+</project>

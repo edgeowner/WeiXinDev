@@ -1,0 +1,59 @@
+{
+  "properties": [
+    {
+      "name": "wechat.open.appId",
+      "type": "java.lang.String",
+      "description": "微信公众号AppId."
+    },
+    {
+      "name": "wechat.open.partnerId",
+      "type": "java.lang.String",
+      "description": "微信支付账户商户Id."
+    },
+    {
+      "name": "wechat.open.partnerKey",
+      "type": "java.lang.String",
+      "description": "微信支付账户支付秘钥."
+    },
+    {
+      "name": "wechat.open.componentAppId",
+      "type": "java.lang.String",
+      "description": "微信开放平台AppId."
+    },
+    {
+      "name": "wechat.open.componentAppSecret",
+      "type": "java.lang.String",
+      "description": "微信开放平台Secret."
+    },
+    {
+      "name": "wechat.open.componentEncodingAesKey",
+      "type": "java.lang.String",
+      "description": "微信开放平台EncodingAesKey."
+    },
+    {
+      "name": "wechat.open.componentToken",
+      "type": "java.lang.String",
+      "description": "微信开放平台Token."
+    },
+    {
+      "name": "wechat.open.redisHost",
+      "type": "java.lang.String",
+      "description": "Redis服务器IP地址."
+    },
+    {
+      "name": "wechat.open.redisPort",
+      "type": "java.lang.Integer",
+      "description": "Redis服务器端口."
+    },
+    {
+      "name": "wechat.open.redisAdmin",
+      "type": "java.lang.String",
+      "description": "Redis账户密码."
+    },
+    {
+      "name": "wechat.open.parentKeyPath",
+      "type": "java.lang.String",
+      "description": "支付证书存储位置."
+    }
+  ]
+}

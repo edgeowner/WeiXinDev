@@ -1,0 +1,16 @@
+description = 'WeiXin Java Tools - Open'
+
+dependencies {
+    compile project(':weixin-java-common')
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile group: 'org.testng', name: 'testng', version: '6.8.7'
+    testCompile group: 'org.mockito', name: 'mockito-all', version: '1.9.5'
+    testCompile group: 'com.google.inject', name: 'guice', version: '3.0'
+    testCompile group: 'org.eclipse.jetty', name: 'jetty-server', version: '9.4.0.RC3'
+    testCompile group: 'org.eclipse.jetty', name: 'jetty-servlet', version: '9.4.0.RC3'
+    testCompile group: 'joda-time', name: 'joda-time', version: '2.9.7'
+}
+
+// TODO 开放平台框架测试用例需要重新编写
+//test.useTestNG()

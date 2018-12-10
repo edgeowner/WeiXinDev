@@ -1,0 +1,36 @@
+spring:
+  datasource:
+    dbcp2:
+      max-idle: 100
+      min-idle: 50
+      initial-size: 50
+      max-total: 4000
+
+
+    type: org.apache.commons.dbcp2.BasicDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.16.4.12:3306/jeecg?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&autoReconnect=true&useSSL=false&serverTimezone=GMT%2b8
+    username: root
+    password:
+# 开发工具配置
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+# Jpa组件
+  jpa:
+    show-sql: true
+wechat:
+  open:
+    appId: wxbdcb6afc21014792
+    partnerId: 1382292802
+    partnerKey: KR9G4ACISVU58D8NSKAN9PC0J1LAYBSM
+    componentAppId: wxce28e7deb273a7ae
+    componentAppSecret: c6b5dfad77e8165b156deb5b056f702c
+    componentEncodingAesKey: ZrH0uLHcUeF1hdj5Y6hL8CvnSwfF92ZwPC1bHNAjAeJ
+    componentToken: initiateWeb
+    redisHost: 127.0.0.1
+    redisPort: 6379
+    redisAdmin:
+    parentKeyPath: /usr/local/kuaima/apiclient_cert.p12

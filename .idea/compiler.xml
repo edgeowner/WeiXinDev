@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="weixin-java-common_main" target="1.8" />
+      <module name="weixin-java-common_test" target="1.8" />
+      <module name="weixin-java-core_main" target="1.8" />
+      <module name="weixin-java-core_test" target="1.8" />
+      <module name="weixin-java-open_main" target="1.8" />
+      <module name="weixin-java-open_test" target="1.8" />
+      <module name="weixin-java-utils_main" target="1.8" />
+      <module name="weixin-java-utils_test" target="1.8" />
+      <module name="weixin-java-web_main" target="1.8" />
+      <module name="weixin-java-web_test" target="1.8" />
+      <module name="WeiXinDev_main" target="1.8" />
+      <module name="WeiXinDev_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

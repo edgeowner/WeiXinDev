@@ -1,0 +1,34 @@
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+# Jackson组件配置
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+# 静态化模板
+  thymeleaf:
+    cache: false
+# Jpa组件
+  jpa:
+    show-sql: true
+# 启动加载配置版本
+  profiles:
+    active: dev
+# Tomcat配置
+server:
+  context-path: /openweixin
+  port: 8083
+  session:
+    timeout: 36000
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 100
+
+  connection-timeout: 20000
+# 日志控制
+debug: false
+trace: false

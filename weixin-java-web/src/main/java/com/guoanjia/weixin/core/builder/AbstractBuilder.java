@@ -1,0 +1,35 @@
+/*
+ * Copyright  (c) 2017. By AsherLi0103
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *       http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
+package com.guoanjia.weixin.core.builder;
+
+import me.chanjar.weixin.open.api.WxOpenService;
+import me.chanjar.weixin.open.bean.message.WxOpenXmlMessage;
+import me.chanjar.weixin.open.bean.message.WxOpenXmlOutMessage;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * @author AsherLi0103
+ * @version 1.0.00
+ */
+public abstract class AbstractBuilder {
+    protected final Logger logger = LoggerFactory.getLogger(getClass());
+
+    public abstract WxOpenXmlOutMessage build(String content, WxOpenXmlMessage wxMessage, WxOpenService service);
+
+}

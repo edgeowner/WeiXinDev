@@ -1,0 +1,9 @@
+version '1.0.00'
+
+dependencies {
+    compile group: 'oro', name: 'oro', version: '2.0.8'
+    compile group: 'javax.servlet', name: 'javax.servlet-api', version: "3.1.0"
+    compile group: 'dom4j', name: 'dom4j', version: '1.6.1'
+    compile group: 'net.coobird', name: 'thumbnailator', version: '0.4.8'
+
+}
